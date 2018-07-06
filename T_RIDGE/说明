@@ -1,0 +1,8 @@
+1. preT_ridge.py内含训练函数（train_ridge）和测试函数（test_ridge），
+train_ridge(excel_file, model_file)有两个参数，第一个是训练数据的表格文件路径，参数与标签参见train_ridge_T.xlsx；
+第二个是训练模型保存路径，默认为preT_ridge.pkl
+test_ridge(excel_file, model_file)有两个参数，第一个是测试数据的表格文件路径，参见test_ridge_T.xlsx；
+第二个是训练模型保存路径，默认为preT_ridge.pkl
+2. train_ridge_T.xlsx文件是训练集
+3. test_ridge_T.xlsx文件是含有异常数据的测试集
+4. preT_ridge.pkl是用所有现有数据（train_ridge_T.xlsx）得出的训练模型，如有需要可重新训练
