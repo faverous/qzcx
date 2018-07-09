@@ -17,9 +17,9 @@ def test(test_data):
     print('----测试完成----')
 
 def begin(file_path):
-    data = pd.read_excel(file_path) #读取数据
+    data = pd.read_csv(file_path) #读取数据
     frame = DataFrame(data)
     test(frame)
 
 if __name__ == '__main__':
-    begin('test_ridge_T3.xlsx')
+    begin('ridge_test/test_ridge_T3.csv')
