@@ -22,4 +22,4 @@ def begin(file_path):
     test(frame)
 
 if __name__ == '__main__':
-    begin('ridge_test/test_ridge_T3.csv')
+    begin('test_ridge_T3.csv')
